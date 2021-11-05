@@ -1,0 +1,162 @@
+body {
+    text-align: center;
+}
+#header{
+    background-image: url("photo.png");
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 1px;
+    text-align: center;
+    color: white;
+}
+h1{
+    font-size: 40px;
+}
+#container{
+    font-size: 30px;
+}
+#select:hover{
+    background-color: gray;
+    color: white; 
+    background-attachment: fixed;
+}
+
+#select a{
+    text-decoration: none;
+    color: white;
+}
+#select{
+    border: 1px solid darkgray;
+    margin-left: 43%;
+    margin-right: 43%;
+    padding: 15px 20px;
+    background-color: #333;  
+}
+#content{
+    background-color: #f4f4f4;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.colum_one h2{
+    text-align: center;
+    font-size: xx-large;
+}
+#content{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 16% auto 3% auto 16%;
+    grid-template-rows: 90px 130px;
+}
+.colum_one{
+grid-column: 1/-1;
+
+}
+.colum_two{
+grid-column: 2/3;
+}
+
+.colum_three{
+    grid-column: 4/5;
+}
+
+#container_two{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 500px;
+    grid-gap:10px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+.child1{
+    border: 1px solid black;
+    grid-column: 2/3;
+    background-color: white;
+}
+
+.child {
+    height: 500px;
+}
+
+.child p {
+    text-align: center;
+    font-size: larger;
+    color: black;
+}
+
+.child h2{
+   color: black;
+}
+
+.child2{
+    border: 1px solid black;
+    grid-column: 3/4;
+    background-color: white;
+    
+}
+
+.child3{
+    border: 1px solid black;
+    grid-column: 4/5;
+    background-color: white; 
+}
+#all_container{
+    background-color: black;
+    height: 500px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+#main_select{
+    text-align: center;
+    font-size: xx-large;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+#main_content{
+    text-align: center;
+    font-size: x-large;
+    padding-top: 15px;
+    padding-bottom: 15;
+}
+#inbox{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.one{
+    background-color: blue;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    font-size: larger;
+    text-align: center;
+}
+.two{
+    background-color: black;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: larger;
+    text-align: center;
+}
+.one h2{
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+}
+.two h2{
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+}
+#footer{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #333;
+    height: 50px;
+    color: white;
+    padding-top: 50px;
+    font-size: x-large;
+}
